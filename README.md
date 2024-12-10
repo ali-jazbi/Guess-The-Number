@@ -1,4 +1,3 @@
-### Final Enhanced Text  
 
 # 🎮 **Guess My Number Game**  
 
@@ -46,7 +45,7 @@ You can check out the project live using this link:
 1. Open **GitHub Desktop** and click **File > Clone Repository**.  
 2. Paste the repository URL:  
    ```
-   https://github.com/YourUsername/guess-my-number.git  
+   https://github.com/ali-jazbi/Guess-The-Number.git  
    ```  
 3. Select a local path and click **Clone**.  
 4. Open `index.html` in your browser and start playing! 🎉  
@@ -54,7 +53,7 @@ You can check out the project live using this link:
 ### Option 3: Manual Clone  
 1. Clone this repository via terminal:  
    ```bash  
-   git clone https://github.com/YourUsername/guess-my-number.git  
+   git clone https://github.com/ali-jazbi/Guess-The-Number.git  
    ```  
 2. Open the `index.html` file in your favorite browser.  
 
