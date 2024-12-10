@@ -25,7 +25,7 @@ document.querySelector(".check").addEventListener("click", function () {
 		document.querySelector(".guess").disabled = true;
 		// make input just positive number
 	} else if (userNumber !== randomNumber) {
-		if (score > 0) {
+		if (score > 1) {
 			displayMessage(
 				userNumber > randomNumber ? "too high ⬆️" : "too low ⬇️"
 			);
@@ -33,7 +33,10 @@ document.querySelector(".check").addEventListener("click", function () {
 			document.querySelector(".score").textContent = score;
 		} else {
 			displayMessage("You Lost the game ‼️");
+			document.querySelector(".score").textContent = 0;
 			document.querySelector("body").style.backgroundColor = "#ff0000";
+			document.querySelector(".check").disabled = true;
+			document.querySelector(".guess").disabled = true;
 		}
 	}
 });
